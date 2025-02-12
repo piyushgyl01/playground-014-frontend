@@ -84,8 +84,7 @@ export default function DestinationList() {
             className="form-control my-4"
           />
         </div>
-        <div className="col-md-6"></div>
-      </div>
+       </div>
       {fetchStatus === "loading" && (
         <div className="row">
           {[...Array(30)].map((item) => (

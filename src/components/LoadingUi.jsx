@@ -1,6 +1,6 @@
-export default function LoadingUi({item}) {
+export default function LoadingUi() {
     return (
-        <div className="col-md-4" key={item}>
+        <div className="col-md-4" >
       <div className="card mb-4 p-2 placeholder-glow">
         <div className="card-header placeholder col-12"></div>
         <div className="card-body">
