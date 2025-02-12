@@ -70,8 +70,6 @@ export default function DestinationList() {
     dispatch(setSearchFilter(e.target.value));
   };
 
-
-
   return (
     <>
       <h1>All Destinations</h1> {/* SEARCH FILTER */}
